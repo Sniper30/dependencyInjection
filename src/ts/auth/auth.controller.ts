@@ -7,7 +7,7 @@ export class authController {
 
   execAction(req: Request, res: Response){
     console.log(req.method)
-    res.end(this.service.printHello())
+    res.end(this.service.printHello());
     //comentario
     //aqui
   }

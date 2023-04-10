@@ -11,23 +11,17 @@ export class authService {
 
   async registerService(body: userRegister) {
     const hash = this.hashPassword(body.password);
-    await this.prisma.user
-      .create({
-        data: {
-          firstName: body.firstName,
-          lastName: body.lastName,
-          email: body.email,
-          passwordHash: hash,
-          picture: body.picture,
-          age: body.age,
-        },
-      })
-      .then(async () => await this.prisma.$disconnect())
-      .catch(async (err) => {
-        console.log(err);
-        await this.prisma.$disconnect();
-        process.exit(1);
-      });
+
+    await this.prisma.user.create({
+      data: {
+        firstName: body.firstName,
+        lastName: body.lastName,
+        email: body.email,
+        passwordHash: hash,
+        picture: body.picture,
+        age: body.age,
+      },
+    });
   }
 
   async logginService(body: userLogin) {
@@ -36,16 +30,12 @@ export class authService {
       .findUnique({
         where: { email },
       })
-      .catch(async (err) => {
-        console.log(err);
-        await this.prisma.$disconnect();
-        process.exit(1);
-      });
-    await this.prisma.$disconnect();
+      
     if (!user) return { error: this.errLogin };
     if (bcrypt.compareSync(body.password, user.passwordHash)) {
       const { passwordHash, ...newObj } = user;
-      return newObj;
+      const token = this.generateToken(newObj)
+      return token;
     } else return { error: this.errLogin };
   }
 
@@ -55,7 +45,7 @@ export class authService {
     return bcrypt.hashSync(hash, salt);
   }
 
-  generateToken(user: userRegister) {
+  generateToken(user: any) {
     const clave: string = process.env.secretClave
       ? process.env.secretClave
       : "";

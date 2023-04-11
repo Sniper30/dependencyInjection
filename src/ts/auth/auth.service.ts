@@ -11,7 +11,6 @@ export class authService {
 
   async registerService(body: userRegister) {
     const hash = this.hashPassword(body.password);
-
     await this.prisma.user.create({
       data: {
         firstName: body.firstName,
@@ -34,8 +33,7 @@ export class authService {
     if (!user) return { error: this.errLogin };
     if (bcrypt.compareSync(body.password, user.passwordHash)) {
       const { passwordHash, ...newObj } = user;
-      const token = this.generateToken(newObj)
-      return token;
+      return newObj;
     } else return { error: this.errLogin };
   }
 

@@ -8,7 +8,7 @@ this is a API made with the main purpose of understanding token based applicatio
 * [![Docker][Docker.com]][Docker-url]
 * [![Prisma][prisma.io]][Prisma-url]
 * [![TypeDI][https://docs.typestack.community/]][TypeDI-url]
-* [![TypeScript][https://www.typescriptlang.org/]][TypeScript]
+* [![TypeScript][typescriptlang.org]][TypeScript-url]
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -70,5 +70,12 @@ and get <h5> hola dashboard </h5>
 
 
 
-[Docker.com]: https://img.shields.io/badge/Docker-4A4A55?style=for-the-badge&logo=Docker&logoColor=0db7ed
+[Docker.com]: https://img.shields.io/badge/Docker-384d54?style=for-the-badge&logo=Docker&logoColor=0db7ed
 [Docker-url]: https://Docker.com 
+[prisma.io]: https://img.shields.io/badge/Prisma-425563?style=for-the-badge&logo=prisma&logoColor=00b388
+[Prisma-url]: https://www.prisma.io
+[https://docs.typestack.community/]: https://img.shields.io/badge/TypeDI-425563?style=for-the-badge&logo=typedi&logoColor=00b388
+[TypeDI-url]:https://docs.typestack.community/
+[typescriptlang.org]: https://img.shields.io/badge/Typescript-00273f?style=for-the-badge&logo=Typescript&logoColor=3178c6
+[TypeScript-url]: https://www.typescriptlang.org/ 
+

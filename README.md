@@ -5,7 +5,7 @@ this is a API made with the main purpose of understanding token based applicatio
 
 ### Built With
 
-* [![Docker][docker.com]][Docker-url]
+* [![Docker][Docker.com]][Docker-url]
 * [![Prisma][prisma.io]][Prisma-url]
 * [![TypeDI][https://docs.typestack.community/]][TypeDI-url]
 * [![TypeScript][https://www.typescriptlang.org/]][TypeScript]
@@ -70,5 +70,5 @@ and get <h5> hola dashboard </h5>
 
 
 
-[JQuery.com]: https://img.shields.io/badge/Docker-4A4A55?style=for-the-badge&logo=Docker&logoColor=0db7ed
-[JQuery-url]: https://Docker.com 
+[Docker.com]: https://img.shields.io/badge/Docker-4A4A55?style=for-the-badge&logo=Docker&logoColor=0db7ed
+[Docker-url]: https://Docker.com 

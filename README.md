@@ -1,20 +1,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-this is a API made with the main purpose of understanding token based applications.
-
-I decided to use dependency injection, cause the facilities that bring  to the development environment.
+this is a API made with the main purpose of understanding token based applications.I decided to use dependency injection, cause the facilities that bring  to the development environment.
 
 ### Built With
 
-<!-- * [![Docker][docker.com]][Docker-url]
+* [![Docker][docker.com]][Docker-url]
 * [![Prisma][prisma.io]][Prisma-url]
 * [![TypeDI][https://docs.typestack.community/]][TypeDI-url]
 * [![TypeScript][https://www.typescriptlang.org/]][TypeScript]
-* [![Next][Next.js]][Next-url] -->
-sdfsdfsffsd
-
+* [![Next][Next.js]][Next-url]
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]

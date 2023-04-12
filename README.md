@@ -5,10 +5,12 @@ this is a API made with the main purpose of understanding token based applicatio
 
 ### Built With
 
+* [![Expresjs][expressjs.com]][expressjs-url]
 * [![Docker][Docker.com]][Docker-url]
 * [![Prisma][prisma.io]][Prisma-url]
 * [![TypeDI][https://docs.typestack.community/]][TypeDI-url]
 * [![TypeScript][typescriptlang.org]][TypeScript-url]
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -78,4 +80,5 @@ and get <h5> hola dashboard </h5>
 [TypeDI-url]:https://docs.typestack.community/
 [typescriptlang.org]: https://img.shields.io/badge/Typescript-00273f?style=for-the-badge&logo=Typescript&logoColor=3178c6
 [TypeScript-url]: https://www.typescriptlang.org/ 
-
+[expressjs.com]: https://img.shields.io/badge/expres-00273f?style=for-the-badge&logo=express&logoColor=3178c6
+[expressjs-url]: https://expressjs.com/

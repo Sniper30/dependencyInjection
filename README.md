@@ -2,7 +2,7 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
-this is a API made with the main purpose of understanding token based applications
+this is a API made with the main purpose of understanding token based applications.
 
 I decided to use dependency injection, cause the facilities that bring  to the development environment.
 
@@ -12,6 +12,7 @@ I decided to use dependency injection, cause the facilities that bring  to the d
 * [![Prisma][prisma.io]][Prisma-url]
 * [![TypeDI][https://docs.typestack.community/]][TypeDI-url]
 * [![TypeScript][https://www.typescriptlang.org/]][TypeScript]
+* [![Next][Next.js]][Next-url]
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -69,5 +70,5 @@ important you gonna get a token when you login o register an user and you must s
    ```
 
 3.now you can pass to the dashboard: `http://localhost:8000/dashboard`
-and get <h1> hola dashboard </h1>
+and get <h5> hola dashboard </h5>
 

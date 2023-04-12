@@ -8,10 +8,10 @@ I decided to use dependency injection, cause the facilities that bring  to the d
 
 ### Built With
 
-*[![Docker][docker.com]][Docker-url]
-*[![Prisma][prisma.io]][Prisma-url]
-*[![TypeDI][https://docs.typestack.community/]][TypeDI-url]
-*[![TypeScript][https://www.typescriptlang.org/]][TypeScript]
+* [![Docker][docker.com]][Docker-url]
+* [![Prisma][prisma.io]][Prisma-url]
+* [![TypeDI][https://docs.typestack.community/]][TypeDI-url]
+* [![TypeScript][https://www.typescriptlang.org/]][TypeScript]
 
 <!-- GETTING STARTED -->
 ## Getting Started

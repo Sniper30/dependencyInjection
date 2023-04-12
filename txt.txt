@@ -9,6 +9,15 @@ this is a API made with the main purpose of understanding token based applicatio
 * [![Prisma][prisma.io]][Prisma-url]
 * [![TypeDI][https://docs.typestack.community/]][TypeDI-url]
 * [![TypeScript][https://www.typescriptlang.org/]][TypeScript]
+* [![Next][Next.js]][Next-url]
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -67,8 +76,3 @@ important you gonna get a token when you login o register an user and you must s
 
 3.now you can pass to the dashboard: `http://localhost:8000/dashboard`
 and get <h5> hola dashboard </h5>
-
-
-
-[JQuery.com]: https://img.shields.io/badge/Docker-4A4A55?style=for-the-badge&logo=Docker&logoColor=0db7ed
-[JQuery-url]: https://Docker.com 
